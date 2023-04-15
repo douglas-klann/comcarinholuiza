@@ -1,0 +1,91 @@
+nav ul a,
+nav .brand-logo {
+  color: #fff;
+}
+
+p {
+  line-height: 2rem;
+}
+
+.sidenav-trigger {
+  color: #FCAD8B;
+}
+
+.parallax-container {
+  min-height: 380px;
+  line-height: 0;
+  height: auto;
+  color: rgba(255,255,255,.9);
+}
+  .parallax-container .section {
+    width: 100%;
+  }
+
+@media only screen and (max-width : 992px) {
+  .parallax-container .section {
+    position: absolute;
+    top: 40%;
+  }
+  #index-banner .section {
+    top: 10%;
+  }
+}
+
+@media only screen and (max-width : 600px) {
+  #index-banner .section {
+    top: 0;
+  }
+}
+
+.icon-block {
+  padding: 0 15px;
+}
+.icon-block .material-icons {
+  font-size: inherit;
+}
+
+footer.page-footer {
+  margin: 0;
+}
+
+.btn_zap{
+  background-color: #DC8A3B !important;
+}
+
+#logo-whatsapp{
+  line-height: 36px;
+  vertical-align: middle !important;
+}
+
+#logo-center{
+  width: 40%;
+  margin-bottom: 10%;
+}
+
+.parallax{
+  height: 70%;
+}
+
+.justified{
+  text-align: justify;
+}
+
+#index-banner{
+  height: 700px;
+}
+
+#middle-banner{
+  height: 700px;
+}
+
+.color_comcarinho{ 
+  background: #FCAD8B;
+}
+
+.color_comcarinho:hover{
+  background-color: #DC8A3B;
+}
+
+.color_footer{
+  background-color: #FCAD8B;
+}
