@@ -86,6 +86,10 @@ footer.page-footer {
   background-color: #DC8A3B;
 }
 
+.color_comcarinho:active{ 
+  background: #FCAD8B;
+}
+
 .color_footer{
   background-color: #FCAD8B;
 }
